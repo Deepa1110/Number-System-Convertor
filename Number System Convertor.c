@@ -1,6 +1,6 @@
 #include<stdio.h>  // for: input & output 
 #include<stdlib.h> // for: exit(0) function 
-#include<conio.h>  // for: getch() function 
+//#include<conio.h>  // for: getch() function 
 #include<ctype.h>  // for: isdigit() function 
 #include<math.h>   // for: pow(2,0) function 
 #include<string.h> // for: strlen() function
@@ -313,7 +313,7 @@ void tryAgain(int choice)
         default:
             printf("\nError: invalid input. \n");
             printf("Press any key to continue... \n");
-            getch();
+            getchar();
             welcomeScreen();
     }
 }
