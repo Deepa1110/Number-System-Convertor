@@ -129,7 +129,7 @@ void userInput(int choice)
         {
             printf("\nError: Binary can only have the digits 0, 1. \n");
             printf("Press any key to continue... \n");
-            getch();
+            getchar();
             welcomeScreen();
         }
         else
@@ -184,7 +184,7 @@ void userInput(int choice)
         {
             printf("\nError: Octal digits can only be between 0 to 7. \n");
             printf("Press any key to continue... \n");
-            getch();
+            getchar();
             welcomeScreen();
         }
         else
@@ -206,7 +206,7 @@ void userInput(int choice)
 
         while(1)
         {
-            ch = getch();
+            ch = getchar();
             if(ch == ENTER || ch == TAB)
             {
                 hexa[i] = '\0';
