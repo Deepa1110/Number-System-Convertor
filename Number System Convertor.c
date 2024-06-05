@@ -85,7 +85,7 @@ label1:
         default:
             printf("\nError: the number must be between 1 to 5.\n");
             printf("Press any key to continue... \n");
-            getch();
+            getchar();
             goto label1;
     }
 }
@@ -158,7 +158,7 @@ void userInput(int choice)
         {
             printf("\nError: Decimal number can't be negative. \n");
             printf("Press any key to continue... \n");
-            getch();
+            getchar();
             welcomeScreen();
         }
         else
@@ -242,7 +242,7 @@ void userInput(int choice)
         {
             printf("\n\nError: Hexadecimal digits can only be between 0 to 9 & A to F. \n");
             printf("Press any key to continue... \n");
-            getch();
+            getchar();
             welcomeScreen();
         }
         else
