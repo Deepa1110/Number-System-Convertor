@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Compile the C program
-RUN gcc -o number-system-convertor "number system convertor.c" -lpthread
+RUN gcc -o number-system-convertor "Number System Convertor.c" -lpthread
 
 # Run the binary program
 CMD ["./number-system-convertor"]
